@@ -34,14 +34,17 @@ const ContactSection = () => {
             </div>
           </div>
           
-          {/* Map image */}
+          {/* Map image with enhanced styling */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-md h-80 rounded-lg overflow-hidden shadow-lg">
+            <div className="w-full max-w-md h-80 rounded-2xl overflow-hidden shadow-2xl relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <img 
                 src={mapImage} 
                 alt="Location map for Shiloh Consultation" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
+              {/* Location pin effect */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-primary rounded-full animate-ping z-20"></div>
             </div>
           </div>
         </div>

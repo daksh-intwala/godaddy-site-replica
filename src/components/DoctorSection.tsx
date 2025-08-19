@@ -9,14 +9,18 @@ const DoctorSection = () => {
     <section className="w-full bg-background py-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Doctor image */}
+          {/* Doctor image with creative styling */}
           <div className="flex justify-center lg:justify-start">
-            <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg">
-              <img 
-                src={drArthurImage} 
-                alt="Dr. Meredith Arthur" 
-                className="w-full h-full object-cover"
-              />
+            <div className="relative group">
+              <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-4 border-primary/20 transition-all duration-500 group-hover:border-primary/40 group-hover:shadow-3xl">
+                <img 
+                  src={drArthurImage} 
+                  alt="Dr. Meredith Arthur" 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+              {/* Decorative ring */}
+              <div className="absolute inset-0 rounded-full border-2 border-primary/30 animate-pulse"></div>
             </div>
           </div>
           
