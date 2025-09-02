@@ -54,3 +54,12 @@ jobs:
           project-id: d6e408b4-c264-4c08-bf9e-74548e61589c
           branch-id: ${{ needs.retrieve-project.outputs.branch-id }}
           action: dispatch-deployments
+
+      - name: Build Node assets
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        env:
+          CI: true
+          SITE_URL: ${{ steps.project.outputs.site-url }}
+        run: |
+          npm ci
+          npm run build
