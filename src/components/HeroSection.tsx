@@ -13,7 +13,7 @@ const HeroSection = () => {
       
       <div className="max-w-6xl mx-auto px-4 py-16 text-center relative z-10">
         {/* Main heading with gradient text */}
-        <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-primary via-primary to-medical-green-light bg-clip-text text-transparent mb-6 tracking-wide animate-gradient-shift bg-[length:200%_auto]">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold bg-gradient-to-r from-primary via-primary to-medical-green-light bg-clip-text text-transparent mb-6 tracking-wide animate-gradient-shift bg-[length:200%_auto]">
           SHILOH CONSULTATIONS
         </h2>
         
