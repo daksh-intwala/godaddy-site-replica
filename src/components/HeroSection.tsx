@@ -13,9 +13,9 @@ const HeroSection = () => {
       
       <div className="max-w-6xl mx-auto px-4 py-16 text-center relative z-10">
         {/* Main heading with gradient text */}
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-primary via-primary to-medical-green-light bg-clip-text text-transparent mb-6 tracking-wide animate-gradient-shift bg-[length:200%_auto]">
+        <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-primary via-primary to-medical-green-light bg-clip-text text-transparent mb-6 tracking-wide animate-gradient-shift bg-[length:200%_auto]">
           SHILOH CONSULTATIONS
-        </h1>
+        </h2>
         
         {/* Tagline */}
         <p className="text-xl md:text-2xl text-text-secondary mb-12 font-light">
@@ -31,7 +31,7 @@ const HeroSection = () => {
             className="px-8 py-3 text-primary border-primary hover:bg-primary hover:text-primary-foreground rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:animate-glow"
           >
             <a href="https://app.leaphealth.ai/practice/shiloh-consultations-28156" target="_blank" rel="noopener noreferrer">
-              SCHEDULE A CONSULTATION
+              SCHEDULE APPOINTMENT
             </a>
           </Button>
           
