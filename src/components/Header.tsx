@@ -11,7 +11,7 @@ const Header = () => {
           <img 
             src={lotusLogo} 
             alt="Shiloh Consultations" 
-            className="h-16 w-auto animate-float drop-shadow-lg"
+            className="h-14 w-auto animate-float drop-shadow-lg"
           />
         </div>
       </div>
