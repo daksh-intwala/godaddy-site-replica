@@ -13,10 +13,10 @@ const ContactSection = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-text-primary mb-4">
-                Shiloh Consultation
+                Shiloh Consultations
               </h3>
               <p className="text-lg text-text-primary mb-4">
-                4533 Brambleton Ave suite 11, Cave Spring, VA 24018, USA
+                4533 Brambleton Ave, Suite 11, Roanoke, VA - 24018
               </p>
               <p className="text-lg text-text-primary">
                 Ph: <a href="tel:5404042682" className="text-primary hover:underline">(540)-404-2682</a>
