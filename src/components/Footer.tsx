@@ -7,16 +7,13 @@ const Footer = () => {
         <p className="text-sm text-text-secondary">
           Copyright © 2025 Shiloh Consultation - All Rights Reserved.
         </p>
-        <div className="flex justify-center items-center gap-4 mt-3">
-          <Link 
-            to="/privacy-policy"
-            className="text-xs text-primary hover:text-primary-glow underline transition-colors"
-          >
+        <a href="/privacy-policy.pdf" download="HIPAA_Notice_of_Privacy_Practices_Shiloh_Consultations">
+          <p className="text-xs text-primary hover:text-primary-glow underline transition-colors">
             Privacy Policy
-          </Link>
-        </div>
+          </p>
+        </a>
         <p className="text-xs text-text-secondary mt-2">
-          Powered by
+          Powered by me
         </p>
       </div>
     </footer>
