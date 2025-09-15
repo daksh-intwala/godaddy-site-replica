@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <footer className="w-full bg-secondary py-8">
@@ -6,14 +8,12 @@ const Footer = () => {
           Copyright © 2025 Shiloh Consultation - All Rights Reserved.
         </p>
         <div className="flex justify-center items-center gap-4 mt-3">
-          <a 
-            href="/HIPAA_Notice_of_Privacy_Practices_Shiloh_Consultations.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link 
+            to="/privacy-policy"
             className="text-xs text-primary hover:text-primary-glow underline transition-colors"
           >
             Privacy Policy
-          </a>
+          </Link>
         </div>
         <p className="text-xs text-text-secondary mt-2">
           Powered by
