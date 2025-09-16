@@ -66,7 +66,7 @@ const DoctorSection = () => {
                       <strong>Complex Pediatric Care</strong>: Specialized care for children with multiple or rare health conditions, combining medical and developmental needs, and supporting patients and families dealing with health-related stress.
                     </li>
                     <li>
-                      <strong>Prenatal Care</strong>: Offering guidance for families facing fetal anomalies or genetic findings, discussing their long-term implications, and exploring treatment options, delivery plans, and alternative approaches to care.
+                      <strong>Perinatal Conversations</strong>: Offering guidance for families facing fetal anomalies or genetic findings, discussing their long-term implications, and exploring treatment options, delivery plans, and alternative approaches to care.
                     </li>
                     <li>
                       <strong>Advanced Care Planning</strong>: Assisting patients and families in navigating tough decisions, including end-of-life care.
