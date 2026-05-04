@@ -16,7 +16,7 @@ const ContactSection = () => {
     if (pinPos) {
       try {
         localStorage.setItem('mapPinPos', JSON.stringify(pinPos));
-      } catch {}
+      } catch { }
     }
   }, [pinPos]);
 
@@ -114,7 +114,7 @@ const ContactSection = () => {
         <h2 className="text-4xl font-bold text-text-primary mb-12 text-center">
           Contact Us
         </h2>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact information */}
           <div className="space-y-8">
@@ -129,7 +129,7 @@ const ContactSection = () => {
                 Ph: <a href="tel:5404042682" className="text-primary hover:underline">(540)-404-2682</a>
               </p>
             </div>
-            
+
             <div>
               <h4 className="text-xl font-semibold text-text-primary mb-4">Hours</h4>
               <div className="bg-secondary p-4 rounded-lg">
@@ -140,7 +140,7 @@ const ContactSection = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Map image with enhanced styling */}
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-md h-80 rounded-2xl overflow-hidden shadow-2xl relative group">
@@ -154,7 +154,7 @@ const ContactSection = () => {
                 onLoad={() => {
                   // Try mapping from the user's custom 1000x1000 bottom-left coordinate space
                   if (!pinPos) {
-                    setPinFromCustom1000(175,210);
+                    setPinFromCustom1000(170, 210);
                   }
                 }}
               />
