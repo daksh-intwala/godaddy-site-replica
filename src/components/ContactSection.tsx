@@ -16,7 +16,7 @@ const ContactSection = () => {
                 Shiloh Consultations
               </h3>
               <p className="text-lg text-text-primary mb-4">
-                4533 Brambleton Ave, Suite 11, Roanoke, VA - 24018
+                3130 Chaparral Drive, Building B, Suite 202, Roanoke VA - 24018
               </p>
               <p className="text-lg text-text-primary">
                 Ph: <a href="tel:5404042682" className="text-primary hover:underline">(540)-404-2682</a>
